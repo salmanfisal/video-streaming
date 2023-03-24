@@ -4,10 +4,12 @@ import Header from "./header.js";
 import Login from "./login.js";
 import Home from "./home.js";
 import Detail from "./detail.js";
-function App() {
+import Designtwo from "./design2.js";
 
+function App() {
   return (
     <>
+        <Designtwo />
       <BrowserRouter>
       <Header />
         <Routes>

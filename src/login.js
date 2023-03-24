@@ -15,7 +15,7 @@ function Login() {
             </Description>
             <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
           </CTA>
-          <BgImage />
+          {/* <BgImage /> */}
         </Content>
       </Container>
     </>
@@ -37,18 +37,18 @@ const Content = styled.div`
   position: relative;
   min-height: 100vh;
 `;
-const BgImage = styled.div`
-  background-image: url("/images/login-background.jpg");
-  height: 100%;
-  background-position: top;
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-`;
+// const BgImage = styled.div`
+//   background-image: url("/images/login-background.jpg");
+//   height: 100%;
+//   background-position: top;
+//   position: absolute;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   z-index: -1;
+// `;
 const CTA = styled.div`
     margin-bottom:2vw;
     max-width:650px;

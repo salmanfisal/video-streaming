@@ -48,6 +48,7 @@ function Header() {
     }
 
   return (
+    <>
       <Nav>
         <Logo>
           <img src="/images/logo.svg" alt="" />
@@ -99,6 +100,7 @@ function Header() {
         {/* // <Login onClick={handleAuth}>Login</Login> */}
  
 </Nav>
+</>
 );
 }
 
